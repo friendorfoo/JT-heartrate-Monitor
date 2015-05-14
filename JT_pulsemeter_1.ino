@@ -92,7 +92,7 @@ void loop(){
        if ((BPM>0) && (BPM<50) ) 
        {   // Heart-beat per minute is more than 0 but less than 50
         
-        RGBOut(OFF, ON, OFF); // Light up blue                         
+        RGBOut(OFF, OFF, ON); // Light up blue                         
  }
  else {
           RGBOut(OFF, OFF, OFF);            // light is off
@@ -101,7 +101,7 @@ void loop(){
        if ((BPM>50) && (BPM<100) ) 
        {   // Heart-beat per minute is more than 0 but less than 50
         
-        RGBOut(OFF, OFF, ON) ;  // Light up green                         
+        RGBOut(OFF, ON, OFF) ;  // Light up green                         
  }
  else {
           RGBOut(OFF, OFF, OFF);            // light is off
